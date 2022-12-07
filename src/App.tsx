@@ -55,6 +55,7 @@ const App = () => {
     if (resolvedState !== EResolvedState.NOT) {
       setTimeout(resetQuestion, 1200);
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [resolvedState]);
 
   return (
