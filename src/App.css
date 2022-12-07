@@ -1,0 +1,139 @@
+.App {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header {
+  color: #48A6D8;
+  text-align: center;
+}
+
+.number-panel {
+  background-color: #fef0e9;
+  display: flex;
+  padding: 40px 0;
+}
+
+.number {
+  width: 300px;
+  height: 300px;
+  border-radius: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid #48A6D8;
+  font-size: 60px;
+  font-weight: 600;
+  line-height: 1.25;
+  color: #48A6D8;
+  background-color: #FFFFFF;
+  cursor: pointer;
+  margin: 0 40px;
+}
+
+.modal {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: hsla(0,0%,100%,.7411764706);
+  z-index: 9999;
+}
+
+.resolve-state-modal-wrapper {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #48A6D8;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 1.25;
+}
+
+.resolve-state-modal-wrapper.right {
+  color: #00BC00;
+}
+
+.resolve-state-modal-wrapper.wrong {
+  color: #FF0000;
+}
+
+.resolve-state-alert {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.total-state-bar-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.total-state-bar {
+  height: 60px;
+  background-color: #FFFFFF;
+  display: flex;
+  border: 1px solid #C1C1C1;
+  border-radius: 4px;
+}
+
+.state-bar-item {
+  width: 40px;
+  border-left: 1px solid #C1C1C1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #48A6D8;
+}
+
+.state-bar-item:first-child {
+  border-left: none;
+}
+
+.state-bar-item-right {
+  color: #00BC00;
+}
+
+.state-bar-item-wrong {
+  color: #FF0000;
+}
+
+.reset-modal-wrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.reset-button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #FFFFFF;
+  background-color: #1A6EA7;
+  font-size: 48px;
+  cursor: pointer;
+  padding: 16px 40px;
+}
+
+.reset-button span {
+  font-size: 24px;
+}
+
+.score-label {
+  font-size: 60px;
+  line-height: 1.25;
+  color: #48A6D8;
+}
